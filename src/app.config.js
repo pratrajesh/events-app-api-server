@@ -5,6 +5,6 @@
  */
 class AppConfig {
     version = '1.0.1';
-    team = 'Event Guru Team';
+    team = 'Your Team Name';
 }
 module.exports = AppConfig;
