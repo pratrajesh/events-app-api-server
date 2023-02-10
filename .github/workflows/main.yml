@@ -6,5 +6,5 @@ jobs:
    steps:
       - name: Update swagerHub
         run: |
-         sh ./.github/scripts/apicall.sh
+         sh ./.github/apicall.sh
         shell: bash
