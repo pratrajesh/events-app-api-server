@@ -1,0 +1,10 @@
+name: SwaggerHub Integration
+on: workflow_dispatch
+jobs:
+  Hello:
+   runs-on: ubuntu-latest
+   steps:
+      - name: Update swagerHub
+        run: |
+         sh ./.github/scripts/apicall.sh
+        shell: bash
