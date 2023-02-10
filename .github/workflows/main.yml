@@ -4,6 +4,10 @@ jobs:
   Hello:
    runs-on: ubuntu-latest
    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Update swagerHub
         run: |
          sh ./.github/apicall.sh
